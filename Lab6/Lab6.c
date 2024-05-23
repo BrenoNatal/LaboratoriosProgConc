@@ -229,4 +229,9 @@ int main(int argc, char *argv[])
 
     printf("As threads acharam %d primos em %d numeros checados do total de %d primos e %lld elementos. \n", qtd_primos, elem_checados, tot_primos, tam);
     printf("A thread vencedora foi a %d achando um total de %d primos. \n", thread_vencedora, mais_primos);
+
+    free(lista);
+    free(Buffer);
+    free(args);
+    free(resultado);
 }
